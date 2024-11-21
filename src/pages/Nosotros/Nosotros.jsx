@@ -1,4 +1,4 @@
-function Us() {
+function Nosotros() {
     return (
       <div>
         <h1>Sobre Nosotros</h1>
@@ -7,5 +7,5 @@ function Us() {
     );
   }
   
-  export default Us;
+  export default Nosotros;
   

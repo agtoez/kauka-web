@@ -1,6 +1,6 @@
-import styles from "./Home.module.css";
+import styles from "./Inicio.module.css";
 
-function Home() {
+function Inicio() {
   return (
     <div className={styles.home}>
       <h1>Bienvenidos a Kauka</h1>
@@ -9,4 +9,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Inicio;

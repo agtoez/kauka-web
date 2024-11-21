@@ -1,4 +1,4 @@
-function Beers() {
+function Cervezas() {
     return (
       <div>
         <h1>Nuestras Cervezas</h1>
@@ -7,5 +7,5 @@ function Beers() {
     );
   }
   
-  export default Beers;
+  export default Cervezas;
   

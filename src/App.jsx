@@ -1,19 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Home from "./pages/Home/Home";
-import Beers from "./pages/Beers/Beers";
-import Contact from "./pages/Contact/Contact";
-import Us from "./pages/Us/Us";
+import Inicio from "./pages/Inicio/Inicio";
+import Cervezas from "./pages/Cervezas/Cervezas";
+import Contacto from "./pages/Contacto/Contacto";
+import Nosotros from "./pages/Nosotros/Nosotros";
 
 function App() {
   return (
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/beers" element={<Beers />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/us" element={<Us />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/cervezas" element={<Cervezas />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/nosotros" element={<Nosotros />} />
       </Routes>
     </Router>
   );
